@@ -2,13 +2,13 @@
 
 /**
  * main - print the string in the put function
- *
- * Description: using the main function
- * this program prints "programming is like buliding a multilingual puzz
- * Return:0
+ * Descriptio: using the main function
+ * this program prints "programming is like buliding a multilingual puzzle
+ * Return: 0
  */
 int main(void)
 {
-	printf"with proper grammar, but the outcome is a piece of art,\n");
+print("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
+
