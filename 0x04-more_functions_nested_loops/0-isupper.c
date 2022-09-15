@@ -10,13 +10,6 @@ int _isupper(int c)
 	{
 		return (1);
 	}
-<<<<<<< HEAD
 
-	else
-	{
-		return (0);
-	}
-=======
 	return (0);
->>>>>>> 9aef03e555f9907a2e7cf1fb899693748e100623
 }
