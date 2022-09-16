@@ -21,8 +21,4 @@ int _isdigit(int);
 int mul(int, int);
 
 #endif /* MAIN_H */
-<<<<<<< HEAD
-=======
 
-
->>>>>>> c4ebda90551dafe0233d63554ba78f45b561ac0e
