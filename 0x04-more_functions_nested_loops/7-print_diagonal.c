@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <main.h>
+#include "main.h"
 
 /**
  * print_diagonal - print a diagonal
@@ -22,7 +22,7 @@ void print_diagonal(int n)
 
 			putchar('\\');
 
-			if (len == (n = 1))
+			if (len == (n - 1))
 			{
 				continue;
 			}
