@@ -19,7 +19,7 @@ void prints_square(int size)
 				putchar('0');
 			}
 
-			putchar('0');
+			putchar('#');
 			putchar('\n');
 		}
 	}
