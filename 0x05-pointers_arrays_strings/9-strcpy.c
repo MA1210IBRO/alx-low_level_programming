@@ -20,4 +20,9 @@ char *_strcpy(char *dest, char *src)
 	*(dest + inc) = '\0';
 
 	return (dest);
+<<<<<<< HEAD
 }
+=======
+	       }
+
+>>>>>>> ae152bd3b694546e7efc642543149f41001342b0
