@@ -6,7 +6,7 @@
 #include "main.h"
 
 /**
- * _atol - converts a string to an integer.
+ * -atol - converts a string to an integer.
  * @s: The string to be converted.
  *
  * Return: The integer value of the converted string.
