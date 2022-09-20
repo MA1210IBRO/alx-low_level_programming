@@ -5,7 +5,7 @@
  * print_array - print n element of array
  * @a: array
  * @n: number of elements
- * Return: empity
+ * Return: 0
  */
 
 void print_array(int *a, int n)
@@ -18,6 +18,5 @@ void print_array(int *a, int n)
 		else
 			printf("%d", a[inc]);
 	}
-        Putchar (10);
-	
+        Putchar (10);	
 }
