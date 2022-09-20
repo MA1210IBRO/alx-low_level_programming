@@ -12,7 +12,7 @@ char *_strcpy(char *dest, char *src)
 {
 	int inc = 0;
 
-	while (*(src + inc) != '\0)
+	while (*(src + inc) != '\0')
 	{
 		*(dest + inc) = *(src + inc);
 		inc++;
@@ -20,9 +20,5 @@ char *_strcpy(char *dest, char *src)
 	*(dest + inc) = '\0';
 
 	return (dest);
-<<<<<<< HEAD
-}
-=======
-	       }
 
->>>>>>> ae152bd3b694546e7efc642543149f41001342b0
+}
