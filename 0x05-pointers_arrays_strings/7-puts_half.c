@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 #include <stdio.h>
 #include "main.h"
 
@@ -24,4 +22,3 @@ void print_array(int *a, int n)
 	}
 	putchar(10);
 }
->>>>>>> 54230e7380acee2dbecf605d75bad6152e7979f9
