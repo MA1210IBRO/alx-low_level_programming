@@ -19,10 +19,5 @@ void print_array(int *a, int n)
 		else
 			printf("%d", a[inc]);
 	}
-<<<<<<< HEAD
-
 	putchar (10);
-=======
-        putchar (10);
->>>>>>> 6f5bd9d31b9467d7ba7067686a2e108b6d5f53c7
 }
