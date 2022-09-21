@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
  * main - print single digit numbers starting from 0
@@ -25,8 +25,11 @@ int main(void)
 			}
 		}
 	}
+<<<<<<< HEAD
 
+=======
+>>>>>>> b12f138e12a97dde04195ab8dbbcbe0ba196dceb
 putchar('\n');
-
+	
 return (0);
 }
