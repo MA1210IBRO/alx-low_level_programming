@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _strpbrk = prints the consecutive character of s1 that are in s2.
+ * _strpbrk - prints the consecutive character of s1 that are in s2.
  * @s: source string
  * @accept: searching string
  *
@@ -22,8 +22,8 @@ char *_strpbrk(char *s, char *accept)
 		}
 		if (*(accept + j) != '\0')
 		{
-			return (s + 1);
+			return (s + i);
 		}
 	}
-	return (0);
+	return (j);
 }
