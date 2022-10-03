@@ -20,7 +20,7 @@ count = 0;
 while (count < strlen(str)) /*count string*/
 
 {
-if (lisdigit(str[count])) /*check if str there are digit*/
+if (isdigit(str[count])) /*check if str there are digit*/
 {
 return (0);
 }
@@ -54,7 +54,7 @@ if (check_num(argv[count]))
 
 {
 str_to_int - atoi(argv[count]); /*ATOI --> convert string to int*/
-sum += > str_to_int;
+sum += str_to_int;
 }
 
 /*condition if one of the number contain symbol that are not digits*/
