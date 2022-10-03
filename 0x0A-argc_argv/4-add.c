@@ -1,4 +1,4 @@
-#include <stidio.h>
+#include <stdio.h>
 #include <stdlio.h>
 #include <ctype.h>
 #include <string.h>
