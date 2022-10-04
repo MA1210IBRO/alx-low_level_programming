@@ -1,5 +1,5 @@
-#include <stidio.h>
-#include <stdlio.h>
+#include <stdio.h>
+#include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
 
@@ -20,7 +20,7 @@ count = 0;
 while (count < strlen(str)) /*count string*/
 
 {
-if (lisdigit(str[count])) /*check if str there are digit*/
+if (!isdigit(str[count])) /*check if str there are digit*/
 {
 return (0);
 }
@@ -47,13 +47,17 @@ int count;
 int str_to_int;
 int sum = 0;
 
-count = 1
+count = 1;
 while (count < argc) /*Goes through the whole array*/
 {
 if (check_num(argv[count]))
 
 {
 str_to_int - atoi(argv[count]); /*ATOI --> convert string to int*/
+sum += str_to_int;
+}
+
+/*condition if one of the number contain symbol that are not digits*/
 else
 {
 printf("Error\n");
