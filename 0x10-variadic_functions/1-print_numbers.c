@@ -8,11 +8,9 @@
  * @n: The number of integers passed to the function.
  * @...: A variable numo to be printed.
  */
-
 void print_numbers(const char *separator, const unsigned int n, ...);
 {
 	va_list nums;
-
 	unigned int index;
 
 	va_start(nums, n);
