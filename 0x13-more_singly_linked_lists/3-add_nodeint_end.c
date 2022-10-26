@@ -1,4 +1,4 @@
-#include "list"
+#include "lists.h"
 
 /**
  * add_nodeint_end - add node to the end of a linked list
@@ -7,7 +7,7 @@
  *
  * Return: address of the newly added node
  */
-listint_t *add_nodeint_end(listint_t **head, const int n);
+listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 	listint_t *new_node;
 	listint_t *cursor = *head;
