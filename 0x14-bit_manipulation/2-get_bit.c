@@ -16,7 +16,12 @@ int get_bit(unsigned long int n, unsigned int index)
 
 	if ((n & (1 << index)) == 0)
 		return (0);
+<<<<<<< HEAD
 
 	return (1);
 
+=======
+	
+	return (1);
+>>>>>>> 0b006319a7ef7f03b84ee851bc083c6ed0acee02
 }
